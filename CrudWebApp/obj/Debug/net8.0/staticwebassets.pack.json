@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/workspace/CrudWebApp/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/workspace/CrudWebApp/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.CrudWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.CrudWebApp.props",
+      "PackagePath": "build\\CrudWebApp.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.CrudWebApp.props",
+      "PackagePath": "buildMultiTargeting\\CrudWebApp.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.CrudWebApp.props",
+      "PackagePath": "buildTransitive\\CrudWebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

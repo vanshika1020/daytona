@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "eHDrErrI3MzhBdG/OdHhNJh6eu/onnk7V/9brr87Yk0=",
+  "Source": "CrudWebApp",
+  "BasePath": "_content/CrudWebApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CrudWebApp/wwwroot",
+      "Source": "CrudWebApp",
+      "ContentRoot": "/workspace/CrudWebApp/wwwroot/",
+      "BasePath": "_content/CrudWebApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/workspace/CrudWebApp/wwwroot/css/site.css",
+      "SourceId": "CrudWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/workspace/CrudWebApp/wwwroot/",
+      "BasePath": "_content/CrudWebApp",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/workspace/CrudWebApp/wwwroot/js/site.js",
+      "SourceId": "CrudWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/workspace/CrudWebApp/wwwroot/",
+      "BasePath": "_content/CrudWebApp",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/site.js"
+    }
+  ]
+}
