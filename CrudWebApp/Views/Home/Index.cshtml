@@ -1,0 +1,87 @@
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="jumbotron bg-primary text-white p-5 rounded mb-4">
+    <h1 class="display-4">
+        <i class="fas fa-database me-3"></i>
+        Welcome to CRUD Web App
+    </h1>
+    <p class="lead">A complete ASP.NET Core application demonstrating Create, Read, Update, and Delete operations.</p>
+    <hr class="my-4">
+    <p>Manage your products with ease using this intuitive web interface.</p>
+    <a class="btn btn-light btn-lg" href="@Url.Action("Index", "Product")" role="button">
+        <i class="fas fa-arrow-right me-2"></i>
+        Get Started
+    </a>
+</div>
+
+<div class="row">
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <i class="fas fa-plus-circle fa-3x text-success mb-3"></i>
+                <h5 class="card-title">Create Products</h5>
+                <p class="card-text">Add new products to your inventory with detailed information.</p>
+                <a href="@Url.Action("Create", "Product")" class="btn btn-success">
+                    <i class="fas fa-plus me-1"></i>
+                    Add Product
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <i class="fas fa-list fa-3x text-info mb-3"></i>
+                <h5 class="card-title">View Products</h5>
+                <p class="card-text">Browse and search through your product catalog.</p>
+                <a href="@Url.Action("Index", "Product")" class="btn btn-info">
+                    <i class="fas fa-eye me-1"></i>
+                    View Products
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <i class="fas fa-edit fa-3x text-warning mb-3"></i>
+                <h5 class="card-title">Manage Products</h5>
+                <p class="card-text">Update and maintain your product information.</p>
+                <a href="@Url.Action("Index", "Product")" class="btn btn-warning">
+                    <i class="fas fa-cog me-1"></i>
+                    Manage
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-info-circle me-2"></i>Features</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check text-success me-2"></i>Create new products</li>
+                            <li><i class="fas fa-check text-success me-2"></i>View product details</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Update existing products</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check text-success me-2"></i>Delete products</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Form validation</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Responsive design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
